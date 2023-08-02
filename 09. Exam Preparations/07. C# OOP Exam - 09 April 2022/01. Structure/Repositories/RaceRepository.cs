@@ -11,7 +11,7 @@ public class RaceRepository : IRepository<IRace>
     private List<IRace> races;
 
     //Constructor
-    public RaceRepository(List<IRace> races)
+    public RaceRepository()
     {
         races= new List<IRace>();
     }

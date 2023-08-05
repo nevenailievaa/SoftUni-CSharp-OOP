@@ -11,7 +11,7 @@ namespace BankLoan.Core
     {
         private IReader reader;
         private IWriter writer;
-        private IController controller;
+        //private IController controller;
         public Engine()
         {
             this.reader = new Reader();
